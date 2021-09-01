@@ -2,7 +2,7 @@
 
 require('Models/Model.php');
 require('Models/User.php');
-require('controllers/UserController.php');
+require('Controllers/UserController.php');
 
 $route = require('utils/router.php');
 $controllerName = 'Controllers\\'.$route['controller'];
